@@ -1,0 +1,68 @@
+/* add transitions here by uncommenting 1, 2, or 3 */
+
+.button {
+  
+    /* 1.   all properties, nothing flashy */
+    /* transition: all .1s; */
+    
+    
+    /* 2.   individually listed properties, 
+            different speeds */
+    /*transition:   background .2s,
+                  top .05s,
+                  left .05s; */ 
+    
+    
+    /* 3.   individually listed properties, 
+            different speeds,
+            added easing */
+    /*transition:   background .2s ease-in,
+                  top .05s ease-out,
+                  left .05s ease-out; */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* base styles */
+  
+  body {
+    text-align: center;
+    padding-top: 100px;
+    background: #fafafa;
+  }
+  
+  .button {
+    font-family: 'Roboto', sans-serif;
+    background: #e1e1e1;
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #666;
+    box-shadow: -3px 5px 0px rgba(0,0,0,0.2);
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .button:hover {
+    background: #2098d1;
+    color: white;
+  }
+  
+  .button:focus {
+    background: #2098d1;
+    color: white;
+    box-shadow: none;
+    top: 5px;
+    left: -3px;
+  }
